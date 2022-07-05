@@ -11,6 +11,7 @@ void depositMoney()
     cin>>currentNum;
     cout<<"\nEnter deposit amount: ";
     cin>>Amount;
+
     cout<<"\nEnter password: ";
     cin>>pass;
     if(pass==passWord){
@@ -123,6 +124,7 @@ int main()
   while(currentNum==9876 && currentPass==1234)
   {
     cout<<endl;
+    cout<<"Online Banking System "<<endl;
     cout<<"Enter 1 to deposit money: "<<endl;
     cout<<"Enter 2 to cash out: "<<endl;
     cout<<"Enter 3 to send money: "<<endl;
